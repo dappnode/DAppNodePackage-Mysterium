@@ -1,0 +1,26 @@
+{
+  "name": "mysterium.dnp.dappnode.eth",
+  "version": "0.1.0",
+  "description": "Mysterium Network is building a global decentralised network of residential IPs.  Running a Mysterium Node will make your IP discoverable, and rentable by internet users worldwide. You can obtain more information about how it works on https://docs.mysterium.network/#how-does-it-work",
+  "type": "service",
+  "mainService": "node",
+  "architectures": ["linux/amd64", "linux/arm64"],
+  "author": "tropicar",
+  "categories": ["Blockchain"],
+  "upstreamRepo": "mysteriumnetwork/node",
+  "upstreamArg": "UPSTREAM_VERSION",
+  "links": {
+    "homepage": "https://www.mysterium.network/",
+    "Mysterium UI":"http://mysterium.dappnode:4449/",
+    "Docs":"https://docs.mysterium.network/",
+    "Monitoring service for Mysterium Node":"https://mystnodes.com/"
+  },
+  "license": "GLP-3.0",
+  "backup": [
+    {
+      "name": "myst-data",
+      "path": "/var/lib/mysterium-node",
+      "service": "node"
+    }
+  ]
+}
