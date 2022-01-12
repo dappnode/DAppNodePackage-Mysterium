@@ -11,9 +11,9 @@
   "upstreamArg": "UPSTREAM_VERSION",
   "links": {
     "homepage": "https://www.mysterium.network/",
-    "Mysterium UI":"http://mysterium.dappnode:4449/",
-    "Docs":"https://docs.mysterium.network/",
-    "Monitoring service for Mysterium Node":"https://mystnodes.com/"
+    "Mysterium UI": "http://mysterium.dappnode:4449/",
+    "Docs": "https://docs.mysterium.network/",
+    "Monitoring service for Mysterium Node": "https://mystnodes.com/"
   },
   "license": "GLP-3.0",
   "backup": [
@@ -22,5 +22,6 @@
       "path": "/var/lib/mysterium-node",
       "service": "node"
     }
-  ]
+  ],
+  "upstreamVersion": "1.1.7"
 }
