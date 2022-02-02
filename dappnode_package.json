@@ -23,5 +23,5 @@
       "service": "node"
     }
   ],
-  "upstreamVersion": "1.2.3"
+  "upstreamVersion": "1.2.4"
 }
