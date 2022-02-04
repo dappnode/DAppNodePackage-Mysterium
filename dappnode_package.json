@@ -13,8 +13,7 @@
     "homepage": "https://www.mysterium.network/",
     "Mysterium UI": "http://mysterium.dappnode:4449/",
     "Docs": "https://docs.mysterium.network/",
-    "Monitoring service for Mysterium Node": "https://mystnodes.com/",
-    "bugs": "
+    "Monitoring service for Mysterium Node": "https://mystnodes.com/"
   },
   "repository": {
     "type": "git",
