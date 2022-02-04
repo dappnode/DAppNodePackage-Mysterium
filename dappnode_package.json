@@ -13,9 +13,17 @@
     "homepage": "https://www.mysterium.network/",
     "Mysterium UI": "http://mysterium.dappnode:4449/",
     "Docs": "https://docs.mysterium.network/",
-    "Monitoring service for Mysterium Node": "https://mystnodes.com/"
+    "Monitoring service for Mysterium Node": "https://mystnodes.com/",
+    "bugs": "
   },
-  "license": "GLP-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dappnode/DAppNodePackage-Mysterium.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dappnode/DAppNodePackage-Mysterium/issues"
+  },
+  "license": "GPL-3.0",
   "backup": [
     {
       "name": "myst-data",
