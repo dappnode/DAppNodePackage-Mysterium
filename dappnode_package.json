@@ -30,5 +30,5 @@
       "service": "node"
     }
   ],
-  "upstreamVersion": "1.6.0"
+  "upstreamVersion": "1.6.2"
 }
