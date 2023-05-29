@@ -1,6 +1,6 @@
 {
   "name": "mysterium.dnp.dappnode.eth",
-  "version": "0.1.0",
+  "version": "0.1.17",
   "description": "Mysterium Network is building a global decentralised network of residential IPs. Running a Mysterium Node will make your IP discoverable, and rentable by internet users worldwide. You can obtain more information about how it works on https://docs.mysterium.network/#how-does-it-work",
   "type": "service",
   "mainService": "node",
@@ -30,5 +30,5 @@
       "service": "node"
     }
   ],
-  "upstreamVersion": "1.19.8"
+  "upstreamVersion": "1.21.1-rc3"
 }
